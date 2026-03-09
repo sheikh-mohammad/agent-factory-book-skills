@@ -1,0 +1,30 @@
+# ChatKit Backend Dependencies
+
+# Web Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+
+# OpenAI
+openai==1.12.0
+
+# Data Validation
+pydantic==2.6.0
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# Database (optional)
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9
+
+# Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Monitoring (optional)
+prometheus-client==0.19.0
+
+# Testing (dev)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
